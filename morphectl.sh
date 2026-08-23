@@ -29,8 +29,8 @@ patch_tiktok() {
     echo "- Patching TikTok"
     echo
 
-    java -jar "$TOOLCHAIN/morphe-cli.jar" patch \
-        --patches "$TOOLCHAIN/patches-derevanced.mpp" \
+    java -jar "$TOOLCHAIN/morphe.jar" patch \
+        --patches "$TOOLCHAIN/patches-tiktok.mpp" \
         --enable "SIM spoof" \
         "$1"
 
@@ -46,6 +46,8 @@ patch_spotify() {
         --patches "$TOOLCHAIN/patches.mpp" \
         --exclusive \
         --enable "Spoof signature" \
+        --disable "Enable non-personalized search" \
+        --disable "Stop video looping" \
         "$1"
 
     echo

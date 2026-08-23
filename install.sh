@@ -4,9 +4,9 @@ set -e
 TOOLCHAIN="./bin"
 
 declare -A files=(
-    ["morphe-cli.jar"]="https://github.com/MorpheApp/morphe-cli/releases/download/v1.8.0/morphe-cli-1.8.0-all.jar"
-    ["patches.mpp"]="https://github.com/MorpheApp/morphe-patches/releases/download/v1.25.0/patches-1.25.0.mpp"
-    ["patches-derevanced.mpp"]="https://github.com/RookieEnough/De-ReVanced/releases/download/v1.0.3/patches-1.0.3.mpp"
+    ["morphe.jar"]="https://github.com/MorpheApp/morphe-desktop/releases/download/v1.13.2/morphe-desktop-1.13.2-all.jar"
+    ["patches.mpp"]="https://github.com/MorpheApp/morphe-patches/releases/download/v1.39.1/patches-1.39.1.mpp"
+    ["patches-tiktok.mpp"]="https://github.com/icysymmetra/tiktok-patches-for-morphe/releases/download/v0.7.0/patches-0.7.0.mpp"
 )
 
 
